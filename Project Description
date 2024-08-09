@@ -1,0 +1,22 @@
+This repository contains the implementation of a Stock Price Prediction model using Long Short-Term Memory (LSTM) networks. The project was developed as part of the EE782 course, focusing on deep learning techniques for time series analysis.
+
+Project Overview
+Predicting stock prices is a challenging task due to the inherent volatility and non-linear patterns in financial markets. Traditional statistical methods often struggle with capturing the complex temporal dependencies in stock data. This project leverages LSTM networks, a type of recurrent neural network (RNN) designed to model long-term dependencies in sequential data, to forecast future stock prices based on historical data.
+
+Key Features
+Data Preprocessing: Collected historical stock price data and performed normalization to ensure stable model training.
+Model Architecture: Built a multi-layer LSTM model using TensorFlow/Keras to capture temporal patterns in the stock price data.
+Training and Evaluation: Trained the model on historical stock data, with Mean Squared Error (MSE) as the loss function. Evaluated model performance on unseen test data to assess its predictive capabilities.
+Visualization: Generated plots to visualize the model's predictions against the actual stock prices, highlighting the accuracy and limitations of the model.
+Results
+The LSTM model demonstrated an ability to capture trends in stock price movements, providing reasonably accurate short-term predictions. However, the model's performance varied across different stocks, reflecting the complexity of financial markets.
+
+Future Work
+Experimenting with additional features such as trading volume, technical indicators, and sentiment analysis from news data.
+Implementing and comparing other deep learning architectures like GRU and Transformer models.
+Fine-tuning the model with hyperparameter optimization techniques for improved accuracy.
+Technologies Used
+Python
+TensorFlow/Keras
+Pandas, NumPy
+Matplotlib, Seaborn
